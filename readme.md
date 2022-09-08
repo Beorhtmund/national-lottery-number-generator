@@ -32,8 +32,3 @@ Prize: £350,000
 Entry: £1.00
 Days: Wed, Sat
 Numbers: 1 - 59
-
-## remove
-python: https://stackoverflow.com/questions/19779737/python-random-numbers-multiple-times
-javascript: https://www.freecodecamp.org/news/javascript-random-number-how-to-generate-a-random-number-in-js/
-clipboard js: https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
