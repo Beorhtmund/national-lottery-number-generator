@@ -47,3 +47,13 @@ Entry: £1.00
 Days: Wed, Sat
 Numbers: 1 - 59
 ```
+
+## SET FOR LIFE (5 Main + 1 LifeBall)
+
+```
+Prize: £10,000 every month for 30 years
+Entry: £1.50
+Days: Mon, Thur
+Numbers: 1 - 47
+Life Ball: 1 - 10
+```
