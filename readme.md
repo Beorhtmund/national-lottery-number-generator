@@ -53,7 +53,7 @@ Numbers: 1 - 59
 ```
 Prize: £10,000 every month for 30 years
 Entry: £1.50
-Days: Mon, Thur
+Days: Mon, Thu
 Numbers: 1 - 47
 Life Ball: 1 - 10
 ```
