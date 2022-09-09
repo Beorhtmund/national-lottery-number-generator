@@ -48,7 +48,7 @@ Days: Wed, Sat
 Numbers: 1 - 59
 ```
 
-## SET FOR LIFE (5 Main + 1 LifeBall)
+## SET FOR LIFE (5 Main + 1 Life Ball)
 
 ```
 Prize: £10,000 every month for 30 years
