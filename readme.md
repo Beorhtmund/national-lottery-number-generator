@@ -1,12 +1,12 @@
 # National Lottery UK Random Number Generator
-This program is designed for players that can't come up with numbers for the National Lottery in the UK. Players need to pick the game and random numbers will be displayed.
+This program is designed for players that can't come up with numbers for the National Lottery in the UK. Players need to pick the game they want to play and random numbers will be displayed. In order to get the prizes listed below, all numbers will need to match the winning numbers.
 
 https://www.national-lottery.co.uk
 
 ## EUROMILLIONS (5 Main + 2 Lucky Stars)
 
 ```
-Prize: jackpot
+Prize: Jackpot
 Entry: £2.50
 Days: Tue, Fri
 Numbers: 1 - 50
@@ -16,7 +16,7 @@ lucky Numbers: 1 - 12
 ## LOTTO (6 Main)
 
 ```
-Prize: jackpot
+Prize: Jackpot
 Entry: £2.00
 Days: Wed, Sat
 Numbers: 1 - 59
