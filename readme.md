@@ -1,6 +1,8 @@
 # National Lottery UK - Random Number Generator
 This program is designed for players that can't come up with numbers for the National Lottery in the UK. Players need to pick the game they want to play and random numbers will be displayed. In order to get the prizes listed below, all numbers will need to match the winning numbers.
 
+FIX: Will make this mobile responsive.
+
 https://beorhtmund.github.io/national-lottery-number-generator/
 
 https://www.national-lottery.co.uk
