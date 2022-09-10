@@ -1,5 +1,5 @@
 # National Lottery UK Random Number Generator
-This program is designed for players that can't come up with numbers for the National Lottery in the UK. Players need to pick the game and random numbers will returned.
+This program is designed for players that can't come up with numbers for the National Lottery in the UK. Players need to pick the game and random numbers will be displayed.
 
 ## EUROMILLIONS (5 Main + 2 Lucky Stars)
 
