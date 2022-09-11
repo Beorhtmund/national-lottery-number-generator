@@ -164,11 +164,17 @@ const setNumbers = (game) => {
             break;
     }
 };
-// remove duplicates
+
 // Display numbers in ascending order
 const ascendingUnique = (...args) => {
     let list = [...args];
     for (let i in list) {
+        for (let j in list[i]) {
+            // Add 0 to the beginning of single digit numbers
+            if (list[i][j].toString().length === 1) {
+                list[i][j] = '0' + list[i][j];
+            }
+        }
         list[i].sort((a, b) => {
             return a - b
         });
