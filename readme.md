@@ -3,8 +3,6 @@ This program is designed for players that can't come up with numbers for the Nat
 
 Players can click on a game and hold enter to keep generating numbers.
 
-FIX: For single digit numbers add 0 before it.
-
 https://beorhtmund.github.io/national-lottery-number-generator/
 
 https://www.national-lottery.co.uk
