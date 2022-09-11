@@ -94,8 +94,8 @@ const setNumbers = (game) => {
                 result = ascendingUnique([fifty(), fifty(), fifty(), fifty(), fifty()], [luckyStars(), luckyStars()]);
             }
 
-            result[0] = result[0].join(' ');
-            result[1] = result[1].join(' ');
+            result[0] = result[0].join(' - ');
+            result[1] = result[1].join(' - ');
 
             title.innerText = game;
             main.innerHTML = '<span class="bold">Main: </span>' + result[0];
@@ -107,7 +107,7 @@ const setNumbers = (game) => {
                 result = ascendingUnique([fiftyNine(), fiftyNine(), fiftyNine(), fiftyNine(), fiftyNine(), fiftyNine()]);
             }
 
-            result[0] = result[0].join(' ');
+            result[0] = result[0].join(' - ');
             
             title.innerText = game;
             main.innerHTML = '<span class="bold">Main: </span>' + result[0];
@@ -119,7 +119,7 @@ const setNumbers = (game) => {
                 result = ascendingUnique([thirtyNine(), thirtyNine(), thirtyNine(), thirtyNine(), thirtyNine()], [thunderball()]);
             }
 
-            result[0] = result[0].join(' ');
+            result[0] = result[0].join(' - ');
             
             title.innerText = game;
             main.innerHTML = '<span class="bold">Main: </span>' + result[0];
@@ -131,7 +131,7 @@ const setNumbers = (game) => {
                 result = ascendingUnique([fifty(), fifty(), fifty(), fifty(), fifty()]);
             }
 
-            result[0] = result[0].join(' ');
+            result[0] = result[0].join(' - ');
             
             title.innerText = game;
             main.innerHTML = '<span class="bold">Main: </span>' + result[0];
@@ -143,7 +143,7 @@ const setNumbers = (game) => {
                 result = ascendingUnique([fiftyNine(), fiftyNine(), fiftyNine(), fiftyNine(), fiftyNine()]);
             }
 
-            result[0] = result[0].join(' ');
+            result[0] = result[0].join(' - ');
 
             title.innerText = game;
             main.innerHTML = '<span class="bold">Main: </span>' + result[0];
@@ -155,7 +155,7 @@ const setNumbers = (game) => {
                 result = ascendingUnique([fortySeven(), fortySeven(), fortySeven(), fortySeven(), fortySeven()], [lifeBall()]);
             }
 
-            result[0] = result[0].join(' ');
+            result[0] = result[0].join(' - ');
             
             title.innerText = game;
             main.innerHTML = '<span class="bold">Main: </span>' + result[0];
