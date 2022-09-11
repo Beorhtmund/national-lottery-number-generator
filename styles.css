@@ -70,11 +70,17 @@ a:hover {
 }
 
 @media screen and (max-width: 700px) {
+    .card-header {
+        position: absolute;
+        top: 60vh;
+    }
+
     #title {
         font-size: 1.5rem;
     }
 
     #numbers {
+        line-height: 2rem;
         width: 80%;
         font-size: 0.8rem;
     }
@@ -89,5 +95,7 @@ a:hover {
 
     #footer {
         font-size: 0.8rem;
+        position: relative;
+        top: 22vh;
     }
 }
