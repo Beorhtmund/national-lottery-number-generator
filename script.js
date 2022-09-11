@@ -190,3 +190,11 @@ const writeClipboard = () => {
     navigator.clipboard.writeText(main.innerText + ' ' + special.innerText).then(() => {
     });
 }
+
+// Add event listener for Enter
+document.addEventListener("keypress", (e) => {
+    const activeLink = document.getElementsByClassName('active');
+    if (e.code === "Enter" && activeLink.length === 1) {
+        setNumbers(activeLink[0].innerText);
+    }
+});
