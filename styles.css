@@ -41,6 +41,8 @@ html {
 
 #main {
     font-size: 1.3rem;
+    padding: 0 1em;
+    border-radius: 25px;
 }
 
 .bold {
@@ -65,4 +67,27 @@ a:hover {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
     font-weight: 100;
+}
+
+@media screen and (max-width: 700px) {
+    #title {
+        font-size: 1.5rem;
+    }
+
+    #numbers {
+        width: 80%;
+        font-size: 0.8rem;
+    }
+
+    #main {
+        font-size: 0.9rem;
+    }
+
+    #copyButton {
+        padding: 1em 2em;
+    }
+
+    #footer {
+        font-size: 0.8rem;
+    }
 }
