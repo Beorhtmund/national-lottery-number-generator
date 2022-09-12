@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>National Lottery Number Generator</title>
-   
-    <meta name="description" content="Random number generator for the UK National Lottery could generate the winning numbers.">
 
+    <meta name="description"
+        content="Random number generator for the UK National Lottery could generate the winning numbers.">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -45,16 +45,18 @@
 
             </ul>
         </div>
-        <div class="card-body">
-            <h5 id="title" class="card-title">Pick a Game</h5>
-            <div id="numbers">
-                <p id="main" class="card-text">Press one of the six options above to generate numbers for that game.</p>
-                <p id="special" class="card-text">Could these be the winning numbers?</p>
+            <div class="card-body">
+                <div id="background"></div>
+                <h5 id="title" class="card-title">Pick a Game</h5>
+                <div id="numbers">
+                    <p id="main" class="card-text">Press one of the six options above to generate numbers for that game.
+                    </p>
+                    <p id="special" class="card-text">Could these be the winning numbers?</p>
+                </div>
+                <button id="copyButton" onclick=writeClipboard() class="btn btn-primary disabled">Copy</button>
             </div>
-            <button id="copyButton" onclick=writeClipboard() class="btn btn-primary disabled">Copy</button>
-        </div>
     </div>
-    
+
     <footer id="footer">
         <p>Created by Beorhtmund 2022</p>
         <p>Future Millionaire</p>
