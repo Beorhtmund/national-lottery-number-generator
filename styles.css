@@ -8,9 +8,6 @@ html {
 html .card .card-header .nav {
   justify-content: center;
 }
-html .card .card-header .nav-item:hover {
-  background-color: green;
-}
 html .card .card-body {
   height: 60vh;
   display: flex;
