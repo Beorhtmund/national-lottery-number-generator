@@ -1,122 +1,111 @@
 html {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Verdana, sans-serif;
 }
-
-.nav {
-    justify-content:center;
+html .card .card-header .nav {
+  justify-content: center;
 }
-
-#background {
-    position: absolute;
-    width: 100%;
-    height: 60vh;
-    background: url('https://images.pexels.com/photos/5550130/pexels-photo-5550130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    filter: blur(2px);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    margin: 0 auto;
-    opacity: 0.7;
-    z-index: 1;
+html .card .card-header .nav-item:hover {
+  background-color: green;
 }
-
-.card-body {
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+html .card .card-body {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-#title {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    font-size: 2rem;
-    text-shadow: 10px 10px 10px gray;
-    z-index: 2;
+html .card .card-body #background {
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  background: url("https://images.pexels.com/photos/5550130/pexels-photo-5550130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  filter: blur(2px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 auto;
+  opacity: 0.7;
+  z-index: 1;
 }
-
-#numbers {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid lightgray;
-    box-shadow: 0 0 10px gray;
-    border-radius: 15px;
-    letter-spacing: 0.8px;
-    line-height: 3rem;
-    width: 50%;
-    height: 100%;
-    font-size: 1.2rem;
-    background-color: white;
-    z-index: 2;
+html .card .card-body #title {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  text-shadow: 10px 10px 10px gray;
+  z-index: 2;
 }
-
-#main {
-    font-size: 1.3rem;
-    padding: 0 1em;
-    border-radius: 25px;
+html .card .card-body #numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 10px gray;
+  border-radius: 15px;
+  letter-spacing: 0.8px;
+  line-height: 3rem;
+  width: 50%;
+  height: 100%;
+  font-size: 1.2rem;
+  background-color: white;
+  z-index: 2;
 }
-
-.bold {
-    font-weight: bold;
+html .card .card-body #numbers #main {
+  font-size: 1.3rem;
+  padding: 0 1em;
+  border-radius: 25px;
 }
-
-a:hover {
-    cursor: pointer;
+html .card .card-body #copyButton {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  box-shadow: 0 0 10px black;
+  z-index: 2;
 }
-
-#copyButton {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    box-shadow: 0 0 10px black;
-    z-index: 2;
-}
-
-#footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-    font-weight: 100;
+html #footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-weight: 100;
 }
 
 @media screen and (max-width: 700px) {
-    .card-header {
-        position: absolute;
-        top: 60vh;
-    }
-
-    #title {
-        font-size: 1.5rem;
-    }
-
-    #numbers {
-        line-height: 2rem;
-        width: 80%;
-        font-size: 0.8rem;
-    }
-
-    #main {
-        font-size: 0.9rem;
-    }
-
-    #copyButton {
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-    }
-
-    #footer {
-        font-size: 0.8rem;
-        position: relative;
-        top: 22vh;
-    }
+  .card .card-header {
+    position: absolute;
+    top: 60vh;
+  }
+  .card .card-body #title {
+    font-size: 1.5rem;
+  }
+  .card .card-body #numbers {
+    line-height: 2rem;
+    width: 80%;
+    font-size: 0.8rem;
+  }
+  .card .card-body #numbers #main {
+    font-size: 0.9rem;
+  }
+  .card .card-body #numbers #copyButton {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  #footer {
+    font-size: 0.8rem;
+    position: relative;
+    top: 22vh;
+  }
 }
+.bold {
+  font-weight: bold;
+}
+
+a:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */

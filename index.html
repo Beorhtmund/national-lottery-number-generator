@@ -45,16 +45,16 @@
 
             </ul>
         </div>
-            <div class="card-body">
-                <div id="background"></div>
-                <h5 id="title" class="card-title">Pick a Game</h5>
-                <div id="numbers">
-                    <p id="main" class="card-text">Press one of the six options above to generate numbers for that game.
-                    </p>
-                    <p id="special" class="card-text">Could these be the winning numbers?</p>
-                </div>
-                <button id="copyButton" onclick=writeClipboard() class="btn btn-primary disabled">Copy</button>
+        <div class="card-body">
+            <div id="background"></div>
+            <h5 id="title" class="card-title">Pick a Game</h5>
+            <div id="numbers">
+                <p id="main" class="card-text">Press one of the six options above to generate numbers for that game.
+                </p>
+                <p id="special" class="card-text">Could these be the winning numbers?</p>
             </div>
+            <button id="copyButton" onclick=writeClipboard() class="btn btn-primary disabled">Copy</button>
+        </div>
     </div>
 
     <footer id="footer">
@@ -62,6 +62,7 @@
         <p>Future Millionaire</p>
     </footer>
 
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="script.js"></script>
 </body>
 
